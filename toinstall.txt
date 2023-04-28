@@ -1,0 +1,3 @@
+Ubuntu:
+sudo apt update
+sudo apt install libglfw3-dev cmake libluajit-5.1-2 xvfb xpra xterm libosmesa-dev libx11-dev libxi-dev libxcursor-dev libxrandr-dev libxxf86vm-dev libxinerama-dev

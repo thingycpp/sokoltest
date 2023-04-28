@@ -4,7 +4,7 @@ comp:
 	
 
 build:
-	gcc src/*.c -o bin/cgame -lm -lpthread -lrt -lGL -lX11 -lXi -lXrandr -lXxf86vm -lXinerama -lXcursor -I vendor/sokol_gp/thirdparty -I vendor/sokol_gp
+	gcc src/*.c -o bin/cgame -lm -lpthread -lrt -lGL -lglfw -lX11 -lXi -lXrandr -lXxf86vm -lXinerama -lXcursor -I vendor/sokol -I vendor/cimgui
 
 run:
 	./bin/cgame
